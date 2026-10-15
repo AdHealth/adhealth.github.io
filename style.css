@@ -82,3 +82,6 @@ footer a{color:var(--muted)}
 .legal p,.legal li{color:var(--fg)}
 .muted{color:var(--muted)}
 .legal code{word-break:break-all;font-size:.9em}
+.grid-3{grid-template-columns:repeat(3,1fr)}
+@media (max-width:860px){.grid-3{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.grid-3{grid-template-columns:1fr}}
